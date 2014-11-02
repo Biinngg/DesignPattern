@@ -1,0 +1,272 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1440F251A0617C2008F5532 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1440F241A0617C2008F5532 /* main.swift */; };
+		C1440F331A0617D9008F5532 /* DarkRoast.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1440F2B1A0617D9008F5532 /* DarkRoast.swift */; };
+		C1440F341A0617D9008F5532 /* HouseBlend.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1440F2C1A0617D9008F5532 /* HouseBlend.swift */; };
+		C1440F351A0617D9008F5532 /* Beverage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1440F2D1A0617D9008F5532 /* Beverage.swift */; };
+		C1440F361A0617D9008F5532 /* Mocha.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1440F2E1A0617D9008F5532 /* Mocha.swift */; };
+		C1440F371A0617D9008F5532 /* CondimentDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1440F2F1A0617D9008F5532 /* CondimentDecorator.swift */; };
+		C1440F381A0617D9008F5532 /* Soy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1440F301A0617D9008F5532 /* Soy.swift */; };
+		C1440F391A0617D9008F5532 /* Whip.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1440F311A0617D9008F5532 /* Whip.swift */; };
+		C1440F3A1A0617D9008F5532 /* Espresso.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1440F321A0617D9008F5532 /* Espresso.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C1440F1F1A0617C2008F5532 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C1440F211A0617C2008F5532 /* decorator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = decorator; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1440F241A0617C2008F5532 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C1440F2B1A0617D9008F5532 /* DarkRoast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoast.swift; sourceTree = "<group>"; };
+		C1440F2C1A0617D9008F5532 /* HouseBlend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HouseBlend.swift; sourceTree = "<group>"; };
+		C1440F2D1A0617D9008F5532 /* Beverage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Beverage.swift; sourceTree = "<group>"; };
+		C1440F2E1A0617D9008F5532 /* Mocha.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mocha.swift; sourceTree = "<group>"; };
+		C1440F2F1A0617D9008F5532 /* CondimentDecorator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CondimentDecorator.swift; sourceTree = "<group>"; };
+		C1440F301A0617D9008F5532 /* Soy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Soy.swift; sourceTree = "<group>"; };
+		C1440F311A0617D9008F5532 /* Whip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Whip.swift; sourceTree = "<group>"; };
+		C1440F321A0617D9008F5532 /* Espresso.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Espresso.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1440F1E1A0617C2008F5532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1440F181A0617C2008F5532 = {
+			isa = PBXGroup;
+			children = (
+				C1440F231A0617C2008F5532 /* decorator */,
+				C1440F221A0617C2008F5532 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1440F221A0617C2008F5532 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1440F211A0617C2008F5532 /* decorator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1440F231A0617C2008F5532 /* decorator */ = {
+			isa = PBXGroup;
+			children = (
+				C1440F2B1A0617D9008F5532 /* DarkRoast.swift */,
+				C1440F2C1A0617D9008F5532 /* HouseBlend.swift */,
+				C1440F2D1A0617D9008F5532 /* Beverage.swift */,
+				C1440F2E1A0617D9008F5532 /* Mocha.swift */,
+				C1440F2F1A0617D9008F5532 /* CondimentDecorator.swift */,
+				C1440F301A0617D9008F5532 /* Soy.swift */,
+				C1440F311A0617D9008F5532 /* Whip.swift */,
+				C1440F321A0617D9008F5532 /* Espresso.swift */,
+				C1440F241A0617C2008F5532 /* main.swift */,
+			);
+			path = decorator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1440F201A0617C2008F5532 /* decorator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1440F281A0617C2008F5532 /* Build configuration list for PBXNativeTarget "decorator" */;
+			buildPhases = (
+				C1440F1D1A0617C2008F5532 /* Sources */,
+				C1440F1E1A0617C2008F5532 /* Frameworks */,
+				C1440F1F1A0617C2008F5532 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = decorator;
+			productName = decorator;
+			productReference = C1440F211A0617C2008F5532 /* decorator */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1440F191A0617C2008F5532 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = UnixOSS;
+				TargetAttributes = {
+					C1440F201A0617C2008F5532 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = C1440F1C1A0617C2008F5532 /* Build configuration list for PBXProject "decorator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C1440F181A0617C2008F5532;
+			productRefGroup = C1440F221A0617C2008F5532 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1440F201A0617C2008F5532 /* decorator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1440F1D1A0617C2008F5532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1440F251A0617C2008F5532 /* main.swift in Sources */,
+				C1440F371A0617D9008F5532 /* CondimentDecorator.swift in Sources */,
+				C1440F331A0617D9008F5532 /* DarkRoast.swift in Sources */,
+				C1440F361A0617D9008F5532 /* Mocha.swift in Sources */,
+				C1440F351A0617D9008F5532 /* Beverage.swift in Sources */,
+				C1440F391A0617D9008F5532 /* Whip.swift in Sources */,
+				C1440F381A0617D9008F5532 /* Soy.swift in Sources */,
+				C1440F341A0617D9008F5532 /* HouseBlend.swift in Sources */,
+				C1440F3A1A0617D9008F5532 /* Espresso.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C1440F261A0617C2008F5532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C1440F271A0617C2008F5532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C1440F291A0617C2008F5532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C1440F2A1A0617C2008F5532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1440F1C1A0617C2008F5532 /* Build configuration list for PBXProject "decorator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1440F261A0617C2008F5532 /* Debug */,
+				C1440F271A0617C2008F5532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1440F281A0617C2008F5532 /* Build configuration list for PBXNativeTarget "decorator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1440F291A0617C2008F5532 /* Debug */,
+				C1440F2A1A0617C2008F5532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1440F191A0617C2008F5532 /* Project object */;
+}
