@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1440EDB1A0615B2008F5532 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1440EDA1A0615B2008F5532 /* main.swift */; };
+		C1440EEC1A0615D9008F5532 /* FlyRocketPowered.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1440EE11A0615D9008F5532 /* FlyRocketPowered.swift */; };
+		C1440EED1A0615D9008F5532 /* ModelDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1440EE21A0615D9008F5532 /* ModelDuck.swift */; };
+		C1440EEE1A0615D9008F5532 /* MallardDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1440EE31A0615D9008F5532 /* MallardDuck.swift */; };
+		C1440EEF1A0615D9008F5532 /* Squeak.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1440EE41A0615D9008F5532 /* Squeak.swift */; };
+		C1440EF01A0615D9008F5532 /* MuteQuack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1440EE51A0615D9008F5532 /* MuteQuack.swift */; };
+		C1440EF11A0615D9008F5532 /* Quack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1440EE61A0615D9008F5532 /* Quack.swift */; };
+		C1440EF21A0615D9008F5532 /* FlyNoWay.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1440EE71A0615D9008F5532 /* FlyNoWay.swift */; };
+		C1440EF31A0615D9008F5532 /* FlyWithWings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1440EE81A0615D9008F5532 /* FlyWithWings.swift */; };
+		C1440EF41A0615D9008F5532 /* Duck.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1440EE91A0615D9008F5532 /* Duck.swift */; };
+		C1440EF51A0615D9008F5532 /* QuackBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1440EEA1A0615D9008F5532 /* QuackBehavior.swift */; };
+		C1440EF61A0615D9008F5532 /* FlyBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1440EEB1A0615D9008F5532 /* FlyBehavior.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C1440ED51A0615B2008F5532 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C1440ED71A0615B2008F5532 /* ducks */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ducks; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1440EDA1A0615B2008F5532 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C1440EE11A0615D9008F5532 /* FlyRocketPowered.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlyRocketPowered.swift; sourceTree = "<group>"; };
+		C1440EE21A0615D9008F5532 /* ModelDuck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelDuck.swift; sourceTree = "<group>"; };
+		C1440EE31A0615D9008F5532 /* MallardDuck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MallardDuck.swift; sourceTree = "<group>"; };
+		C1440EE41A0615D9008F5532 /* Squeak.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Squeak.swift; sourceTree = "<group>"; };
+		C1440EE51A0615D9008F5532 /* MuteQuack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MuteQuack.swift; sourceTree = "<group>"; };
+		C1440EE61A0615D9008F5532 /* Quack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quack.swift; sourceTree = "<group>"; };
+		C1440EE71A0615D9008F5532 /* FlyNoWay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlyNoWay.swift; sourceTree = "<group>"; };
+		C1440EE81A0615D9008F5532 /* FlyWithWings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlyWithWings.swift; sourceTree = "<group>"; };
+		C1440EE91A0615D9008F5532 /* Duck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Duck.swift; sourceTree = "<group>"; };
+		C1440EEA1A0615D9008F5532 /* QuackBehavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuackBehavior.swift; sourceTree = "<group>"; };
+		C1440EEB1A0615D9008F5532 /* FlyBehavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlyBehavior.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1440ED41A0615B2008F5532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1440ECE1A0615B2008F5532 = {
+			isa = PBXGroup;
+			children = (
+				C1440ED91A0615B2008F5532 /* ducks */,
+				C1440ED81A0615B2008F5532 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1440ED81A0615B2008F5532 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1440ED71A0615B2008F5532 /* ducks */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1440ED91A0615B2008F5532 /* ducks */ = {
+			isa = PBXGroup;
+			children = (
+				C1440EE11A0615D9008F5532 /* FlyRocketPowered.swift */,
+				C1440EE21A0615D9008F5532 /* ModelDuck.swift */,
+				C1440EE31A0615D9008F5532 /* MallardDuck.swift */,
+				C1440EE41A0615D9008F5532 /* Squeak.swift */,
+				C1440EE51A0615D9008F5532 /* MuteQuack.swift */,
+				C1440EE61A0615D9008F5532 /* Quack.swift */,
+				C1440EE71A0615D9008F5532 /* FlyNoWay.swift */,
+				C1440EE81A0615D9008F5532 /* FlyWithWings.swift */,
+				C1440EE91A0615D9008F5532 /* Duck.swift */,
+				C1440EEA1A0615D9008F5532 /* QuackBehavior.swift */,
+				C1440EEB1A0615D9008F5532 /* FlyBehavior.swift */,
+				C1440EDA1A0615B2008F5532 /* main.swift */,
+			);
+			path = ducks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1440ED61A0615B2008F5532 /* ducks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1440EDE1A0615B2008F5532 /* Build configuration list for PBXNativeTarget "ducks" */;
+			buildPhases = (
+				C1440ED31A0615B2008F5532 /* Sources */,
+				C1440ED41A0615B2008F5532 /* Frameworks */,
+				C1440ED51A0615B2008F5532 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ducks;
+			productName = ducks;
+			productReference = C1440ED71A0615B2008F5532 /* ducks */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1440ECF1A0615B2008F5532 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = UnixOSS;
+				TargetAttributes = {
+					C1440ED61A0615B2008F5532 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = C1440ED21A0615B2008F5532 /* Build configuration list for PBXProject "ducks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C1440ECE1A0615B2008F5532;
+			productRefGroup = C1440ED81A0615B2008F5532 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1440ED61A0615B2008F5532 /* ducks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1440ED31A0615B2008F5532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1440EF41A0615D9008F5532 /* Duck.swift in Sources */,
+				C1440EEF1A0615D9008F5532 /* Squeak.swift in Sources */,
+				C1440EF11A0615D9008F5532 /* Quack.swift in Sources */,
+				C1440EF21A0615D9008F5532 /* FlyNoWay.swift in Sources */,
+				C1440EEE1A0615D9008F5532 /* MallardDuck.swift in Sources */,
+				C1440EED1A0615D9008F5532 /* ModelDuck.swift in Sources */,
+				C1440EF31A0615D9008F5532 /* FlyWithWings.swift in Sources */,
+				C1440EF61A0615D9008F5532 /* FlyBehavior.swift in Sources */,
+				C1440EF51A0615D9008F5532 /* QuackBehavior.swift in Sources */,
+				C1440EEC1A0615D9008F5532 /* FlyRocketPowered.swift in Sources */,
+				C1440EF01A0615D9008F5532 /* MuteQuack.swift in Sources */,
+				C1440EDB1A0615B2008F5532 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C1440EDC1A0615B2008F5532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C1440EDD1A0615B2008F5532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C1440EDF1A0615B2008F5532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C1440EE01A0615B2008F5532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1440ED21A0615B2008F5532 /* Build configuration list for PBXProject "ducks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1440EDC1A0615B2008F5532 /* Debug */,
+				C1440EDD1A0615B2008F5532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1440EDE1A0615B2008F5532 /* Build configuration list for PBXNativeTarget "ducks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1440EDF1A0615B2008F5532 /* Debug */,
+				C1440EE01A0615B2008F5532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1440ECF1A0615B2008F5532 /* Project object */;
+}
