@@ -6,8 +6,14 @@
 //  Copyright (c) 2014 UnixOSS. All rights reserved.
 //
 
-import Cocoa
+import Foundation
 
 public class NYStylePepperoniPizza: Pizza {
+    
+    override init() {
+        super.init()
+        name = "NY Style Sauce and Cheese Pizza"
+        
+    }
 
 }

@@ -6,17 +6,16 @@
 //  Copyright (c) 2014 UnixOSS. All rights reserved.
 //
 
-import Cocoa
+import Foundation
+
+
 
 public class ChicagoStyleCheesePizza: Pizza {
     
     override init() {
         super.init()
         name = "Chicago Style Deep Dish Cheese Pizza"
-        dough = "Extra Thick Crust Dough"
-        sauce = "Plum Tomato Sauce"
         
-        toppings.append("Shredded Mozzarella Cheese")
     }
     
     public override func cut() {

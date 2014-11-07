@@ -11,20 +11,25 @@ import Cocoa
 public class NYPizzaStore: PizzaStore {
     
     public override func createPizza(type: String) -> Pizza? {
-        
+        var pizza: Pizza?
+        let ingredientFactory: PizzaIngredientFactory = NYPizzaIngredientFactory()
         switch type {
             case "cheese":
-            return NYStyleCheesePizza()
+            pizza = CheesePizza(ingredientFactory: ingredientFactory)
+            pizza!.name = "New York Style Cheese Pizza"
             case "veggie":
-            return NYStyleVeggiePizza()
+            pizza = VeggiePizza(ingredientFactory: ingredientFactory)
+            pizza!.name = "New York Style Veggie Pizza"
             case "clam":
-            return NYStyleClamPizza()
+            pizza = ClamPizza(ingredientFactory: ingredientFactory)
+            pizza!.name = "New York Style Clam Pizza"
             case "pepperoni":
-            return NYStylePepperoniPizza()
+            pizza = PepperoniPizza(ingredientFactory: ingredientFactory)
+            pizza!.name = "New York Style Pepperoni Pizza"
         default:
-            return nil
+            pizza = nil
         }
-        
+        return pizza
     }
 
 }

@@ -11,22 +11,17 @@ import Foundation
 public class Pizza {
     
     var name: String?
-    var dough: String?
-    var sauce: String?
-    var toppings: [String] = [String]()
+    var dough: Dough?
+    var sauce: Sauce?
+    var veggies: [Veggies]?
+    var cheese: Cheese?
+    var pepperoni: Pepperoni?
+    var clam: Clams?
     
-    init() {
-        
-    }
+    init() {}
     
     public func prepare() {
-        println("Preparing \(name!)")
-        println("Tossing dough...")
-        println("Adding sauce...")
-        println("Adding toppings: ")
-        for topping in toppings {
-            println(" \(topping)")
-        }
+        fatalError("This method must be overridden")
     }
     
     public func bake() {
@@ -42,7 +37,11 @@ public class Pizza {
     }
     
     public func getName() -> String? {
-        return name;
+        return name
+    }
+    
+    public func toString() -> String? {
+        return nil
     }
     
 }

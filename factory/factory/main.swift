@@ -9,10 +9,10 @@
 import Foundation
 
 let nyStore = NYPizzaStore()
-let chicagoStore = ChicagoStylePizzaStore()
+//let chicagoStore = ChicagoStylePizzaStore()
 
 var pizza = nyStore.orderPizza("cheese")!
 println("Ethan ordered a \(pizza.getName()!)\n")
 
-pizza = chicagoStore.orderPizza("cheese")!
-println("Joel ordered a \(pizza.getName()!)\n")
+//pizza = chicagoStore.orderPizza("cheese")!
+//println("Joel ordered a \(pizza.getName()!)\n")

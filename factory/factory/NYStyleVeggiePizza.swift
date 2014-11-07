@@ -9,5 +9,11 @@
 import Cocoa
 
 public class NYStyleVeggiePizza: Pizza {
+    
+    override init() {
+        super.init()
+        name = "NY Style Sauce and Cheese Pizza"
+        
+    }
 
 }

@@ -6,17 +6,14 @@
 //  Copyright (c) 2014 UnixOSS. All rights reserved.
 //
 
-import Cocoa
+import Foundation
 
 public class NYStyleCheesePizza: Pizza {
     
     override init() {
         super.init()
         name = "NY Style Sauce and Cheese Pizza"
-        dough = "Thin Crust Dough"
-        sauce = "Marinara Sauce"
         
-        toppings.append("Grated Reggiano Cheese")
     }
 
 }
