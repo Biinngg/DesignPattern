@@ -14,6 +14,8 @@
 		C15990191A12F19400971D1D /* SimpleRemoteControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15990181A12F19400971D1D /* SimpleRemoteControl.swift */; };
 		C159901B1A12F64100971D1D /* GarageDoor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C159901A1A12F64100971D1D /* GarageDoor.swift */; };
 		C159901D1A12F6D800971D1D /* GarageDoorOpenCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = C159901C1A12F6D800971D1D /* GarageDoorOpenCommand.swift */; };
+		C159902B1A131C3200971D1D /* RemoteControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C159902A1A131C3200971D1D /* RemoteControl.swift */; };
+		C159902D1A131CA500971D1D /* NoCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = C159902C1A131CA500971D1D /* NoCommand.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +39,8 @@
 		C15990181A12F19400971D1D /* SimpleRemoteControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleRemoteControl.swift; sourceTree = "<group>"; };
 		C159901A1A12F64100971D1D /* GarageDoor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GarageDoor.swift; sourceTree = "<group>"; };
 		C159901C1A12F6D800971D1D /* GarageDoorOpenCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GarageDoorOpenCommand.swift; sourceTree = "<group>"; };
+		C159902A1A131C3200971D1D /* RemoteControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteControl.swift; sourceTree = "<group>"; };
+		C159902C1A131CA500971D1D /* NoCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoCommand.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,8 @@
 				C15990181A12F19400971D1D /* SimpleRemoteControl.swift */,
 				C159901A1A12F64100971D1D /* GarageDoor.swift */,
 				C159901C1A12F6D800971D1D /* GarageDoorOpenCommand.swift */,
+				C159902A1A131C3200971D1D /* RemoteControl.swift */,
+				C159902C1A131CA500971D1D /* NoCommand.swift */,
 			);
 			path = command;
 			sourceTree = "<group>";
@@ -139,9 +145,11 @@
 				C15990191A12F19400971D1D /* SimpleRemoteControl.swift in Sources */,
 				C159901D1A12F6D800971D1D /* GarageDoorOpenCommand.swift in Sources */,
 				C15990151A12EFD400971D1D /* LightOnCommand.swift in Sources */,
+				C159902B1A131C3200971D1D /* RemoteControl.swift in Sources */,
 				C159900C1A12EF6B00971D1D /* main.swift in Sources */,
 				C15990171A12F0EA00971D1D /* Light.swift in Sources */,
 				C159901B1A12F64100971D1D /* GarageDoor.swift in Sources */,
+				C159902D1A131CA500971D1D /* NoCommand.swift in Sources */,
 				C15990131A12EF8200971D1D /* Command.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +265,7 @@
 				C15990111A12EF6B00971D1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
