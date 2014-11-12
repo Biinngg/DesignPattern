@@ -1,0 +1,264 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C159900C1A12EF6B00971D1D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C159900B1A12EF6B00971D1D /* main.swift */; };
+		C15990131A12EF8200971D1D /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15990121A12EF8200971D1D /* Command.swift */; };
+		C15990151A12EFD400971D1D /* LightOnCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15990141A12EFD400971D1D /* LightOnCommand.swift */; };
+		C15990171A12F0EA00971D1D /* Light.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15990161A12F0EA00971D1D /* Light.swift */; };
+		C15990191A12F19400971D1D /* SimpleRemoteControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15990181A12F19400971D1D /* SimpleRemoteControl.swift */; };
+		C159901B1A12F64100971D1D /* GarageDoor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C159901A1A12F64100971D1D /* GarageDoor.swift */; };
+		C159901D1A12F6D800971D1D /* GarageDoorOpenCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = C159901C1A12F6D800971D1D /* GarageDoorOpenCommand.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C15990061A12EF6B00971D1D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C15990081A12EF6B00971D1D /* command */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = command; sourceTree = BUILT_PRODUCTS_DIR; };
+		C159900B1A12EF6B00971D1D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C15990121A12EF8200971D1D /* Command.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		C15990141A12EFD400971D1D /* LightOnCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightOnCommand.swift; sourceTree = "<group>"; };
+		C15990161A12F0EA00971D1D /* Light.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Light.swift; sourceTree = "<group>"; };
+		C15990181A12F19400971D1D /* SimpleRemoteControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleRemoteControl.swift; sourceTree = "<group>"; };
+		C159901A1A12F64100971D1D /* GarageDoor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GarageDoor.swift; sourceTree = "<group>"; };
+		C159901C1A12F6D800971D1D /* GarageDoorOpenCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GarageDoorOpenCommand.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C15990051A12EF6B00971D1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1598FFF1A12EF6B00971D1D = {
+			isa = PBXGroup;
+			children = (
+				C159900A1A12EF6B00971D1D /* command */,
+				C15990091A12EF6B00971D1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C15990091A12EF6B00971D1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C15990081A12EF6B00971D1D /* command */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C159900A1A12EF6B00971D1D /* command */ = {
+			isa = PBXGroup;
+			children = (
+				C159900B1A12EF6B00971D1D /* main.swift */,
+				C15990121A12EF8200971D1D /* Command.swift */,
+				C15990141A12EFD400971D1D /* LightOnCommand.swift */,
+				C15990161A12F0EA00971D1D /* Light.swift */,
+				C15990181A12F19400971D1D /* SimpleRemoteControl.swift */,
+				C159901A1A12F64100971D1D /* GarageDoor.swift */,
+				C159901C1A12F6D800971D1D /* GarageDoorOpenCommand.swift */,
+			);
+			path = command;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C15990071A12EF6B00971D1D /* command */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C159900F1A12EF6B00971D1D /* Build configuration list for PBXNativeTarget "command" */;
+			buildPhases = (
+				C15990041A12EF6B00971D1D /* Sources */,
+				C15990051A12EF6B00971D1D /* Frameworks */,
+				C15990061A12EF6B00971D1D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = command;
+			productName = command;
+			productReference = C15990081A12EF6B00971D1D /* command */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C15990001A12EF6B00971D1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = UnixOSS;
+				TargetAttributes = {
+					C15990071A12EF6B00971D1D = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = C15990031A12EF6B00971D1D /* Build configuration list for PBXProject "command" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C1598FFF1A12EF6B00971D1D;
+			productRefGroup = C15990091A12EF6B00971D1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C15990071A12EF6B00971D1D /* command */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C15990041A12EF6B00971D1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C15990191A12F19400971D1D /* SimpleRemoteControl.swift in Sources */,
+				C159901D1A12F6D800971D1D /* GarageDoorOpenCommand.swift in Sources */,
+				C15990151A12EFD400971D1D /* LightOnCommand.swift in Sources */,
+				C159900C1A12EF6B00971D1D /* main.swift in Sources */,
+				C15990171A12F0EA00971D1D /* Light.swift in Sources */,
+				C159901B1A12F64100971D1D /* GarageDoor.swift in Sources */,
+				C15990131A12EF8200971D1D /* Command.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C159900D1A12EF6B00971D1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C159900E1A12EF6B00971D1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C15990101A12EF6B00971D1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C15990111A12EF6B00971D1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C15990031A12EF6B00971D1D /* Build configuration list for PBXProject "command" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C159900D1A12EF6B00971D1D /* Debug */,
+				C159900E1A12EF6B00971D1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C159900F1A12EF6B00971D1D /* Build configuration list for PBXNativeTarget "command" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C15990101A12EF6B00971D1D /* Debug */,
+				C15990111A12EF6B00971D1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C15990001A12EF6B00971D1D /* Project object */;
+}
