@@ -10,24 +10,50 @@ import Foundation
 
 public class GarageDoor {
     
+    var name: String?
+    
+    public init(name: String) {
+        self.name = name;
+    }
+    
     public func up() {
-        println("Garage door is up")
+        if name != nil {
+            println("\(name!) Garage door is up")
+        } else {
+            println("Garage door is up")
+        }
     }
     
     public func down() {
-        println("Garage door is down")
+        if name != nil {
+            println("\(name!) Garage door is down")
+        } else {
+            println("Garage door is down")
+        }
     }
     
     public func stop() {
-        println("Garage door is stopped")
+        if name != nil {
+            println("\(name!) Garage door is stopped")
+        } else {
+            println("Garage door is stopped")
+        }
     }
     
     public func lightOn() {
-        println("Garage light is on")
+        if name != nil {
+            println("\(name!) Garage light is on")
+        } else {
+            println("Garage light is on")
+        }
     }
     
     public func lightOff() {
-        println("Garage light is off")
+        if name != nil {
+            println("\(name!) Garage light is off")
+        } else {
+            println("Garage light is off")
+        }
     }
     
 }

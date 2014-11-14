@@ -1,14 +1,14 @@
 //
-//  Light.swift
+//  CeilingFan.swift
 //  command
 //
-//  Created by Bing Liu on 11/12/14.
+//  Created by Bing Liu on 11/13/14.
 //  Copyright (c) 2014 UnixOSS. All rights reserved.
 //
 
 import Foundation
 
-public class Light {
+public class CeilingFan {
     
     var name: String?
     
@@ -22,17 +22,17 @@ public class Light {
     
     public func on() {
         if name != nil {
-            println("\(name!) Light is On")
+            println("\(name!) Ceiling Fan is on")
         } else {
-            println("Light is On")
+            println("Ceiling Fan is on")
         }
     }
     
     public func off() {
         if name != nil {
-            println("\(name!) Light is Off")
+            println("\(name!) Ceiling Fan is off")
         } else {
-            println("Light is Off")
+            println("Ceiling Fan is off")
         }
     }
     

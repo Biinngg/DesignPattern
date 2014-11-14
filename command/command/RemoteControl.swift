@@ -35,7 +35,7 @@ public class RemoteControl {
     public var description: String {
         var string: String = "\n------ Remote Control ------\n"
         for var index=0; index<onCommands.count; ++index {
-            string += "[slot \(index)] " + _stdlib_getTypeName(onCommands[index]) + _stdlib_getTypeName(offCommands[index]) + "\n"
+            string += "[slot \(index)] " + _stdlib_getTypeName(onCommands[index]) + "   " + _stdlib_getTypeName(offCommands[index]) + "\n"
         }
         return string
     }

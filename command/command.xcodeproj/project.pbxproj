@@ -13,9 +13,17 @@
 		C15990171A12F0EA00971D1D /* Light.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15990161A12F0EA00971D1D /* Light.swift */; };
 		C15990191A12F19400971D1D /* SimpleRemoteControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15990181A12F19400971D1D /* SimpleRemoteControl.swift */; };
 		C159901B1A12F64100971D1D /* GarageDoor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C159901A1A12F64100971D1D /* GarageDoor.swift */; };
-		C159901D1A12F6D800971D1D /* GarageDoorOpenCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = C159901C1A12F6D800971D1D /* GarageDoorOpenCommand.swift */; };
+		C159901D1A12F6D800971D1D /* GarageDoorUpCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = C159901C1A12F6D800971D1D /* GarageDoorUpCommand.swift */; };
 		C159902B1A131C3200971D1D /* RemoteControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C159902A1A131C3200971D1D /* RemoteControl.swift */; };
 		C159902D1A131CA500971D1D /* NoCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = C159902C1A131CA500971D1D /* NoCommand.swift */; };
+		C17E5D041A143E1C007574A8 /* LightOffCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17E5D031A143E1C007574A8 /* LightOffCommand.swift */; };
+		C17E5D061A143EA5007574A8 /* Stereo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17E5D051A143EA5007574A8 /* Stereo.swift */; };
+		C17E5D081A143F84007574A8 /* StereoOnWithCDCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17E5D071A143F84007574A8 /* StereoOnWithCDCommand.swift */; };
+		C17E5D0A1A1442FD007574A8 /* CeilingFan.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17E5D091A1442FD007574A8 /* CeilingFan.swift */; };
+		C17E5D0C1A144559007574A8 /* CeilingFanOnCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17E5D0B1A144559007574A8 /* CeilingFanOnCommand.swift */; };
+		C17E5D0E1A1445DB007574A8 /* CeilingFanOffCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17E5D0D1A1445DB007574A8 /* CeilingFanOffCommand.swift */; };
+		C17E5D101A14463F007574A8 /* StereoOffCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17E5D0F1A14463F007574A8 /* StereoOffCommand.swift */; };
+		C17E5D121A14470D007574A8 /* GarageDoorDownCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17E5D111A14470D007574A8 /* GarageDoorDownCommand.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -38,9 +46,17 @@
 		C15990161A12F0EA00971D1D /* Light.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Light.swift; sourceTree = "<group>"; };
 		C15990181A12F19400971D1D /* SimpleRemoteControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleRemoteControl.swift; sourceTree = "<group>"; };
 		C159901A1A12F64100971D1D /* GarageDoor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GarageDoor.swift; sourceTree = "<group>"; };
-		C159901C1A12F6D800971D1D /* GarageDoorOpenCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GarageDoorOpenCommand.swift; sourceTree = "<group>"; };
+		C159901C1A12F6D800971D1D /* GarageDoorUpCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GarageDoorUpCommand.swift; sourceTree = "<group>"; };
 		C159902A1A131C3200971D1D /* RemoteControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteControl.swift; sourceTree = "<group>"; };
 		C159902C1A131CA500971D1D /* NoCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoCommand.swift; sourceTree = "<group>"; };
+		C17E5D031A143E1C007574A8 /* LightOffCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightOffCommand.swift; sourceTree = "<group>"; };
+		C17E5D051A143EA5007574A8 /* Stereo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stereo.swift; sourceTree = "<group>"; };
+		C17E5D071A143F84007574A8 /* StereoOnWithCDCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StereoOnWithCDCommand.swift; sourceTree = "<group>"; };
+		C17E5D091A1442FD007574A8 /* CeilingFan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CeilingFan.swift; sourceTree = "<group>"; };
+		C17E5D0B1A144559007574A8 /* CeilingFanOnCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CeilingFanOnCommand.swift; sourceTree = "<group>"; };
+		C17E5D0D1A1445DB007574A8 /* CeilingFanOffCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CeilingFanOffCommand.swift; sourceTree = "<group>"; };
+		C17E5D0F1A14463F007574A8 /* StereoOffCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StereoOffCommand.swift; sourceTree = "<group>"; };
+		C17E5D111A14470D007574A8 /* GarageDoorDownCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GarageDoorDownCommand.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,13 +91,21 @@
 			children = (
 				C159900B1A12EF6B00971D1D /* main.swift */,
 				C15990121A12EF8200971D1D /* Command.swift */,
-				C15990141A12EFD400971D1D /* LightOnCommand.swift */,
-				C15990161A12F0EA00971D1D /* Light.swift */,
 				C15990181A12F19400971D1D /* SimpleRemoteControl.swift */,
-				C159901A1A12F64100971D1D /* GarageDoor.swift */,
-				C159901C1A12F6D800971D1D /* GarageDoorOpenCommand.swift */,
 				C159902A1A131C3200971D1D /* RemoteControl.swift */,
+				C15990161A12F0EA00971D1D /* Light.swift */,
+				C17E5D091A1442FD007574A8 /* CeilingFan.swift */,
+				C159901A1A12F64100971D1D /* GarageDoor.swift */,
+				C17E5D051A143EA5007574A8 /* Stereo.swift */,
 				C159902C1A131CA500971D1D /* NoCommand.swift */,
+				C15990141A12EFD400971D1D /* LightOnCommand.swift */,
+				C17E5D031A143E1C007574A8 /* LightOffCommand.swift */,
+				C17E5D0B1A144559007574A8 /* CeilingFanOnCommand.swift */,
+				C17E5D0D1A1445DB007574A8 /* CeilingFanOffCommand.swift */,
+				C159901C1A12F6D800971D1D /* GarageDoorUpCommand.swift */,
+				C17E5D111A14470D007574A8 /* GarageDoorDownCommand.swift */,
+				C17E5D071A143F84007574A8 /* StereoOnWithCDCommand.swift */,
+				C17E5D0F1A14463F007574A8 /* StereoOffCommand.swift */,
 			);
 			path = command;
 			sourceTree = "<group>";
@@ -142,14 +166,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C17E5D0E1A1445DB007574A8 /* CeilingFanOffCommand.swift in Sources */,
 				C15990191A12F19400971D1D /* SimpleRemoteControl.swift in Sources */,
-				C159901D1A12F6D800971D1D /* GarageDoorOpenCommand.swift in Sources */,
+				C159901D1A12F6D800971D1D /* GarageDoorUpCommand.swift in Sources */,
 				C15990151A12EFD400971D1D /* LightOnCommand.swift in Sources */,
+				C17E5D081A143F84007574A8 /* StereoOnWithCDCommand.swift in Sources */,
 				C159902B1A131C3200971D1D /* RemoteControl.swift in Sources */,
+				C17E5D041A143E1C007574A8 /* LightOffCommand.swift in Sources */,
+				C17E5D0A1A1442FD007574A8 /* CeilingFan.swift in Sources */,
 				C159900C1A12EF6B00971D1D /* main.swift in Sources */,
 				C15990171A12F0EA00971D1D /* Light.swift in Sources */,
 				C159901B1A12F64100971D1D /* GarageDoor.swift in Sources */,
+				C17E5D0C1A144559007574A8 /* CeilingFanOnCommand.swift in Sources */,
 				C159902D1A131CA500971D1D /* NoCommand.swift in Sources */,
+				C17E5D121A14470D007574A8 /* GarageDoorDownCommand.swift in Sources */,
+				C17E5D101A14463F007574A8 /* StereoOffCommand.swift in Sources */,
+				C17E5D061A143EA5007574A8 /* Stereo.swift in Sources */,
 				C15990131A12EF8200971D1D /* Command.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
