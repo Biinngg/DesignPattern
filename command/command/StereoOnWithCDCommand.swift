@@ -22,4 +22,8 @@ public class StereoOnWithCDCommand: Command {
         stereo.setVolume(11)
     }
     
+    public func undo() {
+        stereo.off()
+    }
+    
 }

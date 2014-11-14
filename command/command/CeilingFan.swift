@@ -8,16 +8,22 @@
 
 import Foundation
 
+public enum Speed: Int {
+    case OFF = 0, LOW, MEDIUM, HIGH
+}
+
 public class CeilingFan {
     
     var name: String?
+    var speed: Speed
     
     public init() {
-        
+        speed = .OFF
     }
     
     public init(name: String) {
         self.name = name
+        speed = .OFF
     }
     
     public func on() {
@@ -34,6 +40,23 @@ public class CeilingFan {
         } else {
             println("Ceiling Fan is off")
         }
+        speed = .OFF
+    }
+    
+    public func high() {
+        speed = .HIGH
+    }
+    
+    public func medium() {
+        speed = .MEDIUM
+    }
+    
+    public func low() {
+        speed = .LOW
+    }
+    
+    public func getSpeed() -> Speed {
+        return speed
     }
     
 }

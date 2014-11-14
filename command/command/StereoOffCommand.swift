@@ -20,4 +20,8 @@ public class StereoOffCommand: Command {
         stereo.off()
     }
     
+    public func undo() {
+        stereo.on()
+    }
+    
 }

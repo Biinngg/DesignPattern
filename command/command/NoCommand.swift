@@ -11,7 +11,11 @@ import Foundation
 public class NoCommand: Command {
     
     public func execute() {
-        println("No command")
+        
+    }
+    
+    public func undo() {
+        
     }
     
 }

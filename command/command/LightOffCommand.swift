@@ -20,4 +20,8 @@ public class LightOffCommand: Command {
         light.off()
     }
     
+    public func undo() {
+        light.on()
+    }
+    
 }

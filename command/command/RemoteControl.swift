@@ -12,11 +12,13 @@ public class RemoteControl {
     
     var onCommands: [Command]
     var offCommands: [Command]
+    var undoCommand: Command
     
     public init() {
         let noCommand: Command = NoCommand()
         onCommands = [Command](count: 7, repeatedValue: noCommand)
         offCommands = [Command](count: 7, repeatedValue: noCommand)
+        undoCommand = noCommand
     }
     
     public func setCommand(slot: Int, onCommand: Command, offCommand: Command) {
@@ -26,10 +28,16 @@ public class RemoteControl {
     
     public func onButtonWasPushed(slot: Int) {
         onCommands[slot].execute()
+        undoCommand = onCommands[slot]
     }
     
     public func offButtonWasPushed(slot: Int) {
         offCommands[slot].execute()
+        undoCommand = offCommands[slot]
+    }
+    
+    public func undoButtonWasPushed() {
+        undoCommand.undo()
     }
     
     public var description: String {

@@ -20,4 +20,8 @@ public class CeilingFanOnCommand: Command {
         ceilingFan.on()
     }
     
+    public func undo() {
+        ceilingFan.off()
+    }
+    
 }

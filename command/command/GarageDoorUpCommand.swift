@@ -21,4 +21,9 @@ public class GarageDoorUpCommand: Command {
         garageDoor.lightOn()
     }
     
+    public func undo() {
+        garageDoor.lightOff()
+        garageDoor.down()
+    }
+    
 }
