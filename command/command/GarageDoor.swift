@@ -12,6 +12,8 @@ public class GarageDoor {
     
     var name: String?
     
+    public init() { }
+    
     public init(name: String) {
         self.name = name;
     }

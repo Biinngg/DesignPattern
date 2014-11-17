@@ -44,14 +44,29 @@ public class CeilingFan {
     }
     
     public func high() {
+        if name != nil {
+            println("\(name!) Ceiling Fan is on high")
+        } else {
+            println("Ceiling Fan is on high")
+        }
         speed = .HIGH
     }
     
     public func medium() {
+        if name != nil {
+            println("\(name!) Ceiling Fan is on medium")
+        } else {
+            println("Ceiling Fan is on medium")
+        }
         speed = .MEDIUM
     }
     
     public func low() {
+        if name != nil {
+            println("\(name!) Ceiling Fan is on low")
+        } else {
+            println("Ceiling Fan is on low")
+        }
         speed = .LOW
     }
     

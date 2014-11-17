@@ -25,6 +25,8 @@
 		C17E5D101A14463F007574A8 /* StereoOffCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17E5D0F1A14463F007574A8 /* StereoOffCommand.swift */; };
 		C17E5D121A14470D007574A8 /* GarageDoorDownCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17E5D111A14470D007574A8 /* GarageDoorDownCommand.swift */; };
 		C17E5D201A15C32E007574A8 /* CeilingFanHighCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17E5D1F1A15C32E007574A8 /* CeilingFanHighCommand.swift */; };
+		C1B3E5FD1A19884900524C76 /* CeilingFanMediumCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B3E5FC1A19884900524C76 /* CeilingFanMediumCommand.swift */; };
+		C1B3E6141A19B50800524C76 /* MacroCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B3E6131A19B50800524C76 /* MacroCommand.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -59,6 +61,8 @@
 		C17E5D0F1A14463F007574A8 /* StereoOffCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StereoOffCommand.swift; sourceTree = "<group>"; };
 		C17E5D111A14470D007574A8 /* GarageDoorDownCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GarageDoorDownCommand.swift; sourceTree = "<group>"; };
 		C17E5D1F1A15C32E007574A8 /* CeilingFanHighCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CeilingFanHighCommand.swift; sourceTree = "<group>"; };
+		C1B3E5FC1A19884900524C76 /* CeilingFanMediumCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CeilingFanMediumCommand.swift; sourceTree = "<group>"; };
+		C1B3E6131A19B50800524C76 /* MacroCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MacroCommand.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +109,12 @@
 				C17E5D0B1A144559007574A8 /* CeilingFanOnCommand.swift */,
 				C17E5D0D1A1445DB007574A8 /* CeilingFanOffCommand.swift */,
 				C17E5D1F1A15C32E007574A8 /* CeilingFanHighCommand.swift */,
+				C1B3E5FC1A19884900524C76 /* CeilingFanMediumCommand.swift */,
 				C159901C1A12F6D800971D1D /* GarageDoorUpCommand.swift */,
 				C17E5D111A14470D007574A8 /* GarageDoorDownCommand.swift */,
 				C17E5D071A143F84007574A8 /* StereoOnWithCDCommand.swift */,
 				C17E5D0F1A14463F007574A8 /* StereoOffCommand.swift */,
+				C1B3E6131A19B50800524C76 /* MacroCommand.swift */,
 			);
 			path = command;
 			sourceTree = "<group>";
@@ -170,10 +176,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C17E5D0E1A1445DB007574A8 /* CeilingFanOffCommand.swift in Sources */,
+				C1B3E5FD1A19884900524C76 /* CeilingFanMediumCommand.swift in Sources */,
 				C15990191A12F19400971D1D /* SimpleRemoteControl.swift in Sources */,
 				C159901D1A12F6D800971D1D /* GarageDoorUpCommand.swift in Sources */,
 				C15990151A12EFD400971D1D /* LightOnCommand.swift in Sources */,
 				C17E5D081A143F84007574A8 /* StereoOnWithCDCommand.swift in Sources */,
+				C1B3E6141A19B50800524C76 /* MacroCommand.swift in Sources */,
 				C17E5D201A15C32E007574A8 /* CeilingFanHighCommand.swift in Sources */,
 				C159902B1A131C3200971D1D /* RemoteControl.swift in Sources */,
 				C17E5D041A143E1C007574A8 /* LightOffCommand.swift in Sources */,

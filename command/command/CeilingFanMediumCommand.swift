@@ -1,14 +1,14 @@
 //
-//  CeilingFanOffCommand.swift
+//  CeilingFanMediumCommand.swift
 //  command
 //
-//  Created by Bing Liu on 11/13/14.
+//  Created by Bing Liu on 11/17/14.
 //  Copyright (c) 2014 UnixOSS. All rights reserved.
 //
 
 import Foundation
 
-public class CeilingFanOffCommand: Command {
+public class CeilingFanMediumCommand: Command {
     
     var ceilingFan: CeilingFan
     var prevSpeed: Speed?
@@ -19,7 +19,7 @@ public class CeilingFanOffCommand: Command {
     
     public func execute() {
         prevSpeed = ceilingFan.getSpeed()
-        ceilingFan.off()
+        ceilingFan.medium()
     }
     
     public func undo() {
