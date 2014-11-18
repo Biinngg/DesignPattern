@@ -1,0 +1,268 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1B3E6281A1AD78300524C76 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B3E6271A1AD78300524C76 /* main.swift */; };
+		C1B3E62F1A1AD90300524C76 /* Duck.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B3E62E1A1AD90300524C76 /* Duck.swift */; };
+		C1B3E6311A1AD92800524C76 /* MallardDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B3E6301A1AD92800524C76 /* MallardDuck.swift */; };
+		C1B3E6331A1AD97F00524C76 /* Turkey.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B3E6321A1AD97F00524C76 /* Turkey.swift */; };
+		C1B3E6351A1AD9AA00524C76 /* WildTurkey.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B3E6341A1AD9AA00524C76 /* WildTurkey.swift */; };
+		C1B3E6371A1ADA3800524C76 /* TurkeyAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B3E6361A1ADA3800524C76 /* TurkeyAdapter.swift */; };
+		C1B3E6391A1ADD3500524C76 /* DuckTestDrive.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B3E6381A1ADD3500524C76 /* DuckTestDrive.swift */; };
+		C1B3E63B1A1AE12C00524C76 /* DuckAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B3E63A1A1AE12C00524C76 /* DuckAdapter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C1B3E6221A1AD78300524C76 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C1B3E6241A1AD78300524C76 /* adapter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = adapter; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1B3E6271A1AD78300524C76 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C1B3E62E1A1AD90300524C76 /* Duck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Duck.swift; sourceTree = "<group>"; };
+		C1B3E6301A1AD92800524C76 /* MallardDuck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MallardDuck.swift; sourceTree = "<group>"; };
+		C1B3E6321A1AD97F00524C76 /* Turkey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Turkey.swift; sourceTree = "<group>"; };
+		C1B3E6341A1AD9AA00524C76 /* WildTurkey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WildTurkey.swift; sourceTree = "<group>"; };
+		C1B3E6361A1ADA3800524C76 /* TurkeyAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurkeyAdapter.swift; sourceTree = "<group>"; };
+		C1B3E6381A1ADD3500524C76 /* DuckTestDrive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DuckTestDrive.swift; sourceTree = "<group>"; };
+		C1B3E63A1A1AE12C00524C76 /* DuckAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DuckAdapter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1B3E6211A1AD78300524C76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1B3E61B1A1AD78300524C76 = {
+			isa = PBXGroup;
+			children = (
+				C1B3E6261A1AD78300524C76 /* adapter */,
+				C1B3E6251A1AD78300524C76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1B3E6251A1AD78300524C76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1B3E6241A1AD78300524C76 /* adapter */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1B3E6261A1AD78300524C76 /* adapter */ = {
+			isa = PBXGroup;
+			children = (
+				C1B3E6271A1AD78300524C76 /* main.swift */,
+				C1B3E62E1A1AD90300524C76 /* Duck.swift */,
+				C1B3E6301A1AD92800524C76 /* MallardDuck.swift */,
+				C1B3E6321A1AD97F00524C76 /* Turkey.swift */,
+				C1B3E6341A1AD9AA00524C76 /* WildTurkey.swift */,
+				C1B3E6361A1ADA3800524C76 /* TurkeyAdapter.swift */,
+				C1B3E6381A1ADD3500524C76 /* DuckTestDrive.swift */,
+				C1B3E63A1A1AE12C00524C76 /* DuckAdapter.swift */,
+			);
+			path = adapter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1B3E6231A1AD78300524C76 /* adapter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1B3E62B1A1AD78300524C76 /* Build configuration list for PBXNativeTarget "adapter" */;
+			buildPhases = (
+				C1B3E6201A1AD78300524C76 /* Sources */,
+				C1B3E6211A1AD78300524C76 /* Frameworks */,
+				C1B3E6221A1AD78300524C76 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = adapter;
+			productName = adapter;
+			productReference = C1B3E6241A1AD78300524C76 /* adapter */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1B3E61C1A1AD78300524C76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = UnixOSS;
+				TargetAttributes = {
+					C1B3E6231A1AD78300524C76 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = C1B3E61F1A1AD78300524C76 /* Build configuration list for PBXProject "adapter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C1B3E61B1A1AD78300524C76;
+			productRefGroup = C1B3E6251A1AD78300524C76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1B3E6231A1AD78300524C76 /* adapter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1B3E6201A1AD78300524C76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1B3E6351A1AD9AA00524C76 /* WildTurkey.swift in Sources */,
+				C1B3E62F1A1AD90300524C76 /* Duck.swift in Sources */,
+				C1B3E6281A1AD78300524C76 /* main.swift in Sources */,
+				C1B3E6371A1ADA3800524C76 /* TurkeyAdapter.swift in Sources */,
+				C1B3E63B1A1AE12C00524C76 /* DuckAdapter.swift in Sources */,
+				C1B3E6311A1AD92800524C76 /* MallardDuck.swift in Sources */,
+				C1B3E6331A1AD97F00524C76 /* Turkey.swift in Sources */,
+				C1B3E6391A1ADD3500524C76 /* DuckTestDrive.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C1B3E6291A1AD78300524C76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C1B3E62A1A1AD78300524C76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C1B3E62C1A1AD78300524C76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C1B3E62D1A1AD78300524C76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1B3E61F1A1AD78300524C76 /* Build configuration list for PBXProject "adapter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1B3E6291A1AD78300524C76 /* Debug */,
+				C1B3E62A1A1AD78300524C76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1B3E62B1A1AD78300524C76 /* Build configuration list for PBXNativeTarget "adapter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1B3E62C1A1AD78300524C76 /* Debug */,
+				C1B3E62D1A1AD78300524C76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1B3E61C1A1AD78300524C76 /* Project object */;
+}
