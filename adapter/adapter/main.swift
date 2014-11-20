@@ -9,3 +9,5 @@
 import Foundation
 
 DuckTestDrive.test()
+println("\n\n\n")
+HomeTheaterTestDrive.test()
