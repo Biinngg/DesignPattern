@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C10115581A26E3F100EEDB4F /* MenuComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10115571A26E3F100EEDB4F /* MenuComponent.swift */; };
+		C101155A1A26E86100EEDB4F /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10115591A26E86100EEDB4F /* Menu.swift */; };
 		C11C4C1E1A22EB3A00799574 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11C4C1D1A22EB3A00799574 /* main.swift */; };
 		C11C4C251A22EB7B00799574 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11C4C241A22EB7B00799574 /* MenuItem.swift */; };
 		C11C4C271A22EC7B00799574 /* PancakeHouseMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11C4C261A22EC7B00799574 /* PancakeHouseMenu.swift */; };
@@ -31,6 +33,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C10115571A26E3F100EEDB4F /* MenuComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuComponent.swift; sourceTree = "<group>"; };
+		C10115591A26E86100EEDB4F /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		C11C4C1A1A22EB3A00799574 /* iterator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = iterator; sourceTree = BUILT_PRODUCTS_DIR; };
 		C11C4C1D1A22EB3A00799574 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C11C4C241A22EB7B00799574 /* MenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
@@ -82,6 +86,8 @@
 				C1F84B971A241A6B00366CFF /* PancakeHouseIterator.swift */,
 				C1F84BA21A243C5F00366CFF /* Waitress.swift */,
 				C1F84BA41A243E4500366CFF /* MenuTestDrive.swift */,
+				C10115571A26E3F100EEDB4F /* MenuComponent.swift */,
+				C10115591A26E86100EEDB4F /* Menu.swift */,
 			);
 			path = iterator;
 			sourceTree = "<group>";
@@ -147,7 +153,9 @@
 				C11C4C291A22EFCA00799574 /* DinerMenu.swift in Sources */,
 				C11C4C1E1A22EB3A00799574 /* main.swift in Sources */,
 				C1F84BA31A243C5F00366CFF /* Waitress.swift in Sources */,
+				C101155A1A26E86100EEDB4F /* Menu.swift in Sources */,
 				C1F84B981A241A6B00366CFF /* PancakeHouseIterator.swift in Sources */,
+				C10115581A26E3F100EEDB4F /* MenuComponent.swift in Sources */,
 				C1F84B941A24149C00366CFF /* Iterator.swift in Sources */,
 				C11C4C251A22EB7B00799574 /* MenuItem.swift in Sources */,
 				C1F84B961A24151C00366CFF /* DinerMenuIterator.swift in Sources */,

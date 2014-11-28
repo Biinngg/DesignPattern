@@ -8,7 +8,7 @@
 
 import Foundation
 
-class MenuItem {
+class MenuItem: MenuComponent {
     
     let name: String
     let description: String
@@ -22,20 +22,29 @@ class MenuItem {
         self.price = price
     }
     
-    func getName() -> String {
+    override func getName() -> String {
         return name
     }
     
-    func getDescription() -> String {
+    override func getDescription() -> String {
         return description
     }
     
-    func getPrice() -> Double {
+    override func getPrice() -> Double {
         return price
     }
     
-    func isVegetarian() -> Bool {
+    override func isVegetarian() -> Bool {
         return vegetarian
+    }
+    
+    override func print() {
+        var print = "   \(getName())"
+        if isVegetarian() {
+            print += "(v)"
+        }
+        println("\(print), \(getPrice())")
+        println("   -- \(getDescription())")
     }
     
 }

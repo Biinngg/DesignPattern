@@ -10,28 +10,38 @@ import Foundation
 
 class Waitress {
     
-    let pancakeHouseMenu: PancakeHouseMenu
-    let dinerMenu: DinerMenu
+//    let pancakeHouseMenu: PancakeHouseMenu
+//    let dinerMenu: DinerMenu
+//    
+//    init(pancakeHouseMenu: PancakeHouseMenu, dinerMenu: DinerMenu) {
+//        self.pancakeHouseMenu = pancakeHouseMenu
+//        self.dinerMenu = dinerMenu
+//    }
+//    
+//    func printMenu() {
+//        let pancakeIterator = pancakeHouseMenu.createIterator()
+//        let dinerIterator = dinerMenu.createIterator()
+//        println("MENU\n----\nBREAKFAST")
+//        printMenu(pancakeIterator)
+//        println("\nLUNCH")
+//        printMenu(dinerIterator)
+//    }
+//    
+//    func printMenu(iterator: Iterator) {
+//        while iterator.hasNext() {
+//            let menuItem = iterator.next()!
+//            println("\(menuItem.getName()), \(menuItem.getPrice()) -- \(menuItem.getDescription())")
+//        }
+//    }
     
-    init(pancakeHouseMenu: PancakeHouseMenu, dinerMenu: DinerMenu) {
-        self.pancakeHouseMenu = pancakeHouseMenu
-        self.dinerMenu = dinerMenu
+    let allMenus: MenuComponent
+    
+    init(allMenus: MenuComponent) {
+        self.allMenus = allMenus
     }
     
     func printMenu() {
-        let pancakeIterator = pancakeHouseMenu.createIterator()
-        let dinerIterator = dinerMenu.createIterator()
-        println("MENU\n----\nBREAKFAST")
-        printMenu(pancakeIterator)
-        println("\nLUNCH")
-        printMenu(dinerIterator)
-    }
-    
-    func printMenu(iterator: Iterator) {
-        while iterator.hasNext() {
-            let menuItem = iterator.next()!
-            println("\(menuItem.getName()), \(menuItem.getPrice()) -- \(menuItem.getDescription())")
-        }
+        allMenus.print()
     }
     
 }
