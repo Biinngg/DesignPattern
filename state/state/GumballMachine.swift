@@ -64,4 +64,9 @@ class GumballMachine {
         }
     }
     
+    func refill(count: Int) {
+        self.count = count
+        state = noQuarterState
+    }
+    
 }
