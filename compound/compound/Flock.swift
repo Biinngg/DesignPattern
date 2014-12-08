@@ -22,4 +22,12 @@ class Flock: Quackable {
         }
     }
     
+    func registerObserver(observer: Observer) {
+        for quacker in quackers {
+            quacker.registerObserver(observer)
+        }
+    }
+    
+    func notifyObservers() {    }
+    
 }

@@ -1,5 +1,5 @@
 //
-//  Quackable.swift
+//  QuackObservable.swift
 //  compound
 //
 //  Created by Bing Liu on 12/8/14.
@@ -8,8 +8,9 @@
 
 import Foundation
 
-protocol Quackable: QuackObservable {
+protocol QuackObservable {
     
-    func quack()
+    func registerObserver(observer: Observer)
+    func notifyObservers()
     
 }

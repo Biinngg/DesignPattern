@@ -10,8 +10,23 @@ import Foundation
 
 class MallardDuck: Quackable {
     
+    let observable: Observable!
+    
+    init() {
+        observable = Observable(duck: self)
+    }
+    
     func quack() {
         println("Quack")
+        notifyObservers()
+    }
+    
+    func registerObserver(observer: Observer) {
+        observable.registerObserver(observer)
+    }
+    
+    func notifyObservers() {
+        observable.notifyObservers()
     }
     
 }

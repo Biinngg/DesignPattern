@@ -27,4 +27,12 @@ class QuackCounter: Quackable {
         return numberOfQuacks
     }
     
+    func registerObserver(observer: Observer) {
+        duck.registerObserver(observer)
+    }
+    
+    func notifyObservers() {
+        duck.notifyObservers()
+    }
+    
 }

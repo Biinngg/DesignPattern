@@ -39,7 +39,10 @@ class DuckSimulator {
         
         flockOfDucks.add(flockOfMallards)
         
-        println("\nDuck Simulator: Whole Flock Simulation")
+        println("\nDuck Simulator: With Observer")
+        let quackologist = Quackologist()
+        flockOfDucks.registerObserver(quackologist)
+        
         simulate(flockOfDucks)
         
         println("\nDuck Simulator: Mallard Flock Simulation")

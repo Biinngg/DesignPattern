@@ -21,6 +21,10 @@
 		C1495E011A3569A600AE32B2 /* DuckFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1495E001A3569A600AE32B2 /* DuckFactory.swift */; };
 		C1495E031A356EE500AE32B2 /* CountingDuckFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1495E021A356EE500AE32B2 /* CountingDuckFactory.swift */; };
 		C1495E051A3572E700AE32B2 /* Flock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1495E041A3572E700AE32B2 /* Flock.swift */; };
+		C1495E071A357B5200AE32B2 /* QuackObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1495E061A357B5200AE32B2 /* QuackObservable.swift */; };
+		C1495E091A35810F00AE32B2 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1495E081A35810F00AE32B2 /* Observable.swift */; };
+		C1495E1A1A35A4E700AE32B2 /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1495E191A35A4E700AE32B2 /* Observer.swift */; };
+		C1495E1C1A35A57000AE32B2 /* Quackologist.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1495E1B1A35A57000AE32B2 /* Quackologist.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -51,6 +55,10 @@
 		C1495E001A3569A600AE32B2 /* DuckFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DuckFactory.swift; sourceTree = "<group>"; };
 		C1495E021A356EE500AE32B2 /* CountingDuckFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountingDuckFactory.swift; sourceTree = "<group>"; };
 		C1495E041A3572E700AE32B2 /* Flock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flock.swift; sourceTree = "<group>"; };
+		C1495E061A357B5200AE32B2 /* QuackObservable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuackObservable.swift; sourceTree = "<group>"; };
+		C1495E081A35810F00AE32B2 /* Observable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		C1495E191A35A4E700AE32B2 /* Observer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
+		C1495E1B1A35A57000AE32B2 /* Quackologist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quackologist.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,10 @@
 				C1495E001A3569A600AE32B2 /* DuckFactory.swift */,
 				C1495E021A356EE500AE32B2 /* CountingDuckFactory.swift */,
 				C1495E041A3572E700AE32B2 /* Flock.swift */,
+				C1495E061A357B5200AE32B2 /* QuackObservable.swift */,
+				C1495E081A35810F00AE32B2 /* Observable.swift */,
+				C1495E191A35A4E700AE32B2 /* Observer.swift */,
+				C1495E1B1A35A57000AE32B2 /* Quackologist.swift */,
 			);
 			path = compound;
 			sourceTree = "<group>";
@@ -157,16 +169,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1495E091A35810F00AE32B2 /* Observable.swift in Sources */,
 				C1018F481A35411C002860CA /* DuckCall.swift in Sources */,
 				C1018F4C1A3541B7002860CA /* DuckSimulator.swift in Sources */,
 				C1018F461A353C03002860CA /* RedheadDuck.swift in Sources */,
 				C1495E011A3569A600AE32B2 /* DuckFactory.swift in Sources */,
 				C1495E031A356EE500AE32B2 /* CountingDuckFactory.swift in Sources */,
+				C1495E1A1A35A4E700AE32B2 /* Observer.swift in Sources */,
 				C1018F501A35470B002860CA /* GooseAdapter.swift in Sources */,
 				C1018F4E1A354648002860CA /* Goose.swift in Sources */,
 				C1018F3B1A353B3C002860CA /* main.swift in Sources */,
 				C1495DFD1A3563A500AE32B2 /* QuackCounter.swift in Sources */,
+				C1495E1C1A35A57000AE32B2 /* Quackologist.swift in Sources */,
 				C1495DFF1A35691900AE32B2 /* AbstrackDuckFactory.swift in Sources */,
+				C1495E071A357B5200AE32B2 /* QuackObservable.swift in Sources */,
 				C1018F421A353B5B002860CA /* Quackable.swift in Sources */,
 				C1018F4A1A354152002860CA /* RubberDuck.swift in Sources */,
 				C1018F441A353BC0002860CA /* MallardDuck.swift in Sources */,
