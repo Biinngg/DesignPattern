@@ -12,19 +12,38 @@ class DuckSimulator {
     
     class func simulate() {
         let duckFactory : AbstrackDuckFactory = CountingDuckFactory()
-        let mallardDuck = duckFactory.createMallardDuck()
         let redheadDuck = duckFactory.createRedheadDuck()
         let duckCall = duckFactory.createDuckCall()
         let rubberDuck = duckFactory.createRubberDuck()
         let gooseDuck = GooseAdapter(goose: Goose())
+        println("\nDuck Simulator: With Composite - Flocks")
         
-        println("\nDuck Simulator: With Abstrack Factory")
+        let flockOfDucks = Flock()
         
-        simulate(mallardDuck)
-        simulate(redheadDuck)
-        simulate(duckCall)
-        simulate(rubberDuck)
-        simulate(gooseDuck)
+        flockOfDucks.add(redheadDuck)
+        flockOfDucks.add(duckCall)
+        flockOfDucks.add(rubberDuck)
+        flockOfDucks.add(gooseDuck)
+        
+        let flockOfMallards = Flock()
+        
+        let mallardOne = duckFactory.createMallardDuck()
+        let mallardTwo = duckFactory.createMallardDuck()
+        let mallardThree = duckFactory.createMallardDuck()
+        let mallardFour = duckFactory.createMallardDuck()
+        
+        flockOfMallards.add(mallardOne)
+        flockOfMallards.add(mallardTwo)
+        flockOfMallards.add(mallardThree)
+        flockOfMallards.add(mallardFour)
+        
+        flockOfDucks.add(flockOfMallards)
+        
+        println("\nDuck Simulator: Whole Flock Simulation")
+        simulate(flockOfDucks)
+        
+        println("\nDuck Simulator: Mallard Flock Simulation")
+        simulate(flockOfMallards)
         
         println("The ducks quacked \(QuackCounter.getQuacks()) times")
     }

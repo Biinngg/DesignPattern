@@ -20,6 +20,7 @@
 		C1495DFF1A35691900AE32B2 /* AbstrackDuckFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1495DFE1A35691900AE32B2 /* AbstrackDuckFactory.swift */; };
 		C1495E011A3569A600AE32B2 /* DuckFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1495E001A3569A600AE32B2 /* DuckFactory.swift */; };
 		C1495E031A356EE500AE32B2 /* CountingDuckFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1495E021A356EE500AE32B2 /* CountingDuckFactory.swift */; };
+		C1495E051A3572E700AE32B2 /* Flock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1495E041A3572E700AE32B2 /* Flock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,6 +50,7 @@
 		C1495DFE1A35691900AE32B2 /* AbstrackDuckFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstrackDuckFactory.swift; sourceTree = "<group>"; };
 		C1495E001A3569A600AE32B2 /* DuckFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DuckFactory.swift; sourceTree = "<group>"; };
 		C1495E021A356EE500AE32B2 /* CountingDuckFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountingDuckFactory.swift; sourceTree = "<group>"; };
+		C1495E041A3572E700AE32B2 /* Flock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flock.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				C1495DFE1A35691900AE32B2 /* AbstrackDuckFactory.swift */,
 				C1495E001A3569A600AE32B2 /* DuckFactory.swift */,
 				C1495E021A356EE500AE32B2 /* CountingDuckFactory.swift */,
+				C1495E041A3572E700AE32B2 /* Flock.swift */,
 			);
 			path = compound;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 				C1018F421A353B5B002860CA /* Quackable.swift in Sources */,
 				C1018F4A1A354152002860CA /* RubberDuck.swift in Sources */,
 				C1018F441A353BC0002860CA /* MallardDuck.swift in Sources */,
+				C1495E051A3572E700AE32B2 /* Flock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
