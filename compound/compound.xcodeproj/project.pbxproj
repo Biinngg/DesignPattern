@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1018F3B1A353B3C002860CA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1018F3A1A353B3C002860CA /* main.swift */; };
+		C1018F421A353B5B002860CA /* Quackable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1018F411A353B5B002860CA /* Quackable.swift */; };
+		C1018F441A353BC0002860CA /* MallardDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1018F431A353BC0002860CA /* MallardDuck.swift */; };
+		C1018F461A353C03002860CA /* RedheadDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1018F451A353C03002860CA /* RedheadDuck.swift */; };
+		C1018F481A35411C002860CA /* DuckCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1018F471A35411C002860CA /* DuckCall.swift */; };
+		C1018F4A1A354152002860CA /* RubberDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1018F491A354152002860CA /* RubberDuck.swift */; };
+		C1018F4C1A3541B7002860CA /* DuckSimulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1018F4B1A3541B7002860CA /* DuckSimulator.swift */; };
+		C1018F4E1A354648002860CA /* Goose.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1018F4D1A354648002860CA /* Goose.swift */; };
+		C1018F501A35470B002860CA /* GooseAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1018F4F1A35470B002860CA /* GooseAdapter.swift */; };
+		C1495DFD1A3563A500AE32B2 /* QuackCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1495DFC1A3563A500AE32B2 /* QuackCounter.swift */; };
+		C1495DFF1A35691900AE32B2 /* AbstrackDuckFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1495DFE1A35691900AE32B2 /* AbstrackDuckFactory.swift */; };
+		C1495E011A3569A600AE32B2 /* DuckFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1495E001A3569A600AE32B2 /* DuckFactory.swift */; };
+		C1495E031A356EE500AE32B2 /* CountingDuckFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1495E021A356EE500AE32B2 /* CountingDuckFactory.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C1018F351A353B3C002860CA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C1018F371A353B3C002860CA /* compound */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = compound; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1018F3A1A353B3C002860CA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C1018F411A353B5B002860CA /* Quackable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quackable.swift; sourceTree = "<group>"; };
+		C1018F431A353BC0002860CA /* MallardDuck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MallardDuck.swift; sourceTree = "<group>"; };
+		C1018F451A353C03002860CA /* RedheadDuck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedheadDuck.swift; sourceTree = "<group>"; };
+		C1018F471A35411C002860CA /* DuckCall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DuckCall.swift; sourceTree = "<group>"; };
+		C1018F491A354152002860CA /* RubberDuck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RubberDuck.swift; sourceTree = "<group>"; };
+		C1018F4B1A3541B7002860CA /* DuckSimulator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DuckSimulator.swift; sourceTree = "<group>"; };
+		C1018F4D1A354648002860CA /* Goose.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Goose.swift; sourceTree = "<group>"; };
+		C1018F4F1A35470B002860CA /* GooseAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GooseAdapter.swift; sourceTree = "<group>"; };
+		C1495DFC1A3563A500AE32B2 /* QuackCounter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuackCounter.swift; sourceTree = "<group>"; };
+		C1495DFE1A35691900AE32B2 /* AbstrackDuckFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstrackDuckFactory.swift; sourceTree = "<group>"; };
+		C1495E001A3569A600AE32B2 /* DuckFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DuckFactory.swift; sourceTree = "<group>"; };
+		C1495E021A356EE500AE32B2 /* CountingDuckFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountingDuckFactory.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1018F341A353B3C002860CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1018F2E1A353B3C002860CA = {
+			isa = PBXGroup;
+			children = (
+				C1018F391A353B3C002860CA /* compound */,
+				C1018F381A353B3C002860CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1018F381A353B3C002860CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1018F371A353B3C002860CA /* compound */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1018F391A353B3C002860CA /* compound */ = {
+			isa = PBXGroup;
+			children = (
+				C1018F3A1A353B3C002860CA /* main.swift */,
+				C1018F411A353B5B002860CA /* Quackable.swift */,
+				C1018F431A353BC0002860CA /* MallardDuck.swift */,
+				C1018F451A353C03002860CA /* RedheadDuck.swift */,
+				C1018F471A35411C002860CA /* DuckCall.swift */,
+				C1018F491A354152002860CA /* RubberDuck.swift */,
+				C1018F4B1A3541B7002860CA /* DuckSimulator.swift */,
+				C1018F4D1A354648002860CA /* Goose.swift */,
+				C1018F4F1A35470B002860CA /* GooseAdapter.swift */,
+				C1495DFC1A3563A500AE32B2 /* QuackCounter.swift */,
+				C1495DFE1A35691900AE32B2 /* AbstrackDuckFactory.swift */,
+				C1495E001A3569A600AE32B2 /* DuckFactory.swift */,
+				C1495E021A356EE500AE32B2 /* CountingDuckFactory.swift */,
+			);
+			path = compound;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1018F361A353B3C002860CA /* compound */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1018F3E1A353B3C002860CA /* Build configuration list for PBXNativeTarget "compound" */;
+			buildPhases = (
+				C1018F331A353B3C002860CA /* Sources */,
+				C1018F341A353B3C002860CA /* Frameworks */,
+				C1018F351A353B3C002860CA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = compound;
+			productName = compound;
+			productReference = C1018F371A353B3C002860CA /* compound */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1018F2F1A353B3C002860CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = UnixOSS;
+				TargetAttributes = {
+					C1018F361A353B3C002860CA = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = C1018F321A353B3C002860CA /* Build configuration list for PBXProject "compound" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C1018F2E1A353B3C002860CA;
+			productRefGroup = C1018F381A353B3C002860CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1018F361A353B3C002860CA /* compound */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1018F331A353B3C002860CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1018F481A35411C002860CA /* DuckCall.swift in Sources */,
+				C1018F4C1A3541B7002860CA /* DuckSimulator.swift in Sources */,
+				C1018F461A353C03002860CA /* RedheadDuck.swift in Sources */,
+				C1495E011A3569A600AE32B2 /* DuckFactory.swift in Sources */,
+				C1495E031A356EE500AE32B2 /* CountingDuckFactory.swift in Sources */,
+				C1018F501A35470B002860CA /* GooseAdapter.swift in Sources */,
+				C1018F4E1A354648002860CA /* Goose.swift in Sources */,
+				C1018F3B1A353B3C002860CA /* main.swift in Sources */,
+				C1495DFD1A3563A500AE32B2 /* QuackCounter.swift in Sources */,
+				C1495DFF1A35691900AE32B2 /* AbstrackDuckFactory.swift in Sources */,
+				C1018F421A353B5B002860CA /* Quackable.swift in Sources */,
+				C1018F4A1A354152002860CA /* RubberDuck.swift in Sources */,
+				C1018F441A353BC0002860CA /* MallardDuck.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C1018F3C1A353B3C002860CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C1018F3D1A353B3C002860CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C1018F3F1A353B3C002860CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C1018F401A353B3C002860CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1018F321A353B3C002860CA /* Build configuration list for PBXProject "compound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1018F3C1A353B3C002860CA /* Debug */,
+				C1018F3D1A353B3C002860CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1018F3E1A353B3C002860CA /* Build configuration list for PBXNativeTarget "compound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1018F3F1A353B3C002860CA /* Debug */,
+				C1018F401A353B3C002860CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1018F2F1A353B3C002860CA /* Project object */;
+}
